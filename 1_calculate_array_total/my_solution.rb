@@ -4,7 +4,7 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.  
 
-# I worked on this challenge by myself.
+# I worked on this challenge with Kennedy.
 
 # 1. Pseudocode
 
@@ -39,8 +39,8 @@ end
 # end
 
 # 3. Refactored Solution
-# => total is fully refactored, unless I want to just skip renaming the
-# => array (I'd rather leave it in)
+# total is fully refactored, unless I want to just skip renaming the
+# array (I'd rather leave it in)
 
 def sentence_maker(stringArray)
 	@stringArray = stringArray
