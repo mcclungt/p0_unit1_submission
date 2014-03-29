@@ -49,19 +49,19 @@ end
 
 
 # Person 4
-def my_array_deletion_method(source, thing_to_delete)
-  #Your code here!
-end
-
-def my_hash_deletion_method(source, thing_to_delete)
-  #Your code here!
+def my_deletion_method(array, letter)
+	@array = array
+	@letter = letter
+	@array.delete_if { |x| x.include?(@letter) }
+	return @array
 end
 
 # Identify and describe the ruby method you implemented. 
-# 
-#
-#
-
+# => This method will take a letter or string and remove all elements from
+# => and array or hash that have that letter or keyword associated with it.
+# => I combined both methods into one because it works in either an array or
+# => a hash, but I could separate them into two arrays if need be just to make
+# => the variables clearer.
 
 ################## DRIVER CODE ###################################
 # HINT: Use `puts` statements to see if you are altering the original structure with these methods. 
