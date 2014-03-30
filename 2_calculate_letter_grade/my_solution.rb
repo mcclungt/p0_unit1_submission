@@ -38,9 +38,12 @@ def get_grade(grades)
 	end
 end
 
-puts get_grade([100, 90, 80])
 # 3. Refactored Solution
+# I believe my solution is as refactored as possible. I could change
+# to a switch statement or something but I think that would be
+# arbitrary.
 
-
-
-# 4. Reflection 
+# 4. Reflection
+# This assignment went as smooth as it could go. It's really nice when
+# things work on the first try. If there is a more efficient way to
+# get the mean of an array, then I couldn't find it.
